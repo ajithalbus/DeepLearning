@@ -1,0 +1,1 @@
+python -u train.py --lr 0.02 --momentum 0.5 --num_hidden 3 --sizes 1024,256,64 --activation sigmoid --loss ce --opt nag --batch_size 100 --anneal false --save_dir best/model --expt_dir best/log --train data/train.csv --test data/test.csv --val data/val.csv --pretrain true --pretrainE 24 --epochs 30

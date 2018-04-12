@@ -1,0 +1,17 @@
+opt --> nag
+num_hidden --> 3
+expt_dir --> best/log
+val --> data/val.csv
+loss --> ce
+activation --> sigmoid
+sizes --> ['1024', '256', '64']
+batch_size --> 100
+pretrain --> True
+epochs --> 30
+train --> data/train.csv
+lr --> 0.02
+save_dir --> best/model
+test --> data/test.csv
+pretrainE --> 24
+anneal --> false
+momentum --> 0.5
