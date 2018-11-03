@@ -1,2 +1,0 @@
-The experiments for Visualizing kernels,Guided backProp and Fooling the network are in experiments.ipynb
-Requirements : tensorflow,numpy,argparse,sklearn(to calculate f1-score),pandas

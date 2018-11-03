@@ -1,4 +1,0 @@
---anneal: true,false
---opt: gd,momentum,nag,adam
---loss: sq,ce
---activation: tanh,sigmoid
