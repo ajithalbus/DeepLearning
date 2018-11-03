@@ -1,0 +1,3 @@
+python -u train.py --lr 0.001 --momentum 0.5 --num_hidden 1 --sizes 100 --activation sigmoid --loss ce --opt adam --batch_size 20 --anneal false --save_dir q1/b/model --expt_dir q1/b/log --train data/train.csv --test data/test.csv --epochs 20
+python -u train.py --lr 0.001 --momentum 0.5 --num_hidden 1 --sizes 200 --activation sigmoid --loss ce --opt adam --batch_size 20 --anneal false --save_dir q1/c/model --expt_dir q1/c/log --train data/train.csv --test data/test.csv --epochs 20
+python -u train.py --lr 0.001 --momentum 0.5 --num_hidden 1 --sizes 300 --activation sigmoid --loss ce --opt adam --batch_size 20 --anneal false --save_dir q1/d/model --expt_dir q1/d/log --train data/train.csv --test data/test.csv --epochs 20
